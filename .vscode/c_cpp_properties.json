@@ -24,7 +24,7 @@
       "intelliSenseMode": "clang-x64",
       "browse": {
         "path": [
-          "${env:GNU_GCC}/arm-none-eabi/include",
+          "${env:GNU_GCC_ARM}/arm-none-eabi/include",
           "${env:GNU_GCC_ARM_LIBS}/include",
           "${env:nRF_SDK}/components/",
           "${env:nRF_SDK}/components/libraries/util",
@@ -34,7 +34,7 @@
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""
       },
-      "compilerPath": "${env:GNU_GCC}/bin/arm-none-eabi-gcc",
+      "compilerPath": "${env:GNU_GCC_ARM}/bin/arm-none-eabi-gcc",
       "cStandard": "c11",
       "cppStandard": "c++17"
     },
