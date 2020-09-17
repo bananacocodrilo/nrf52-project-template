@@ -1,7 +1,3 @@
 {
-  "terminal.integrated.env.linux": {
-    "GNU_GCC_ARM": "$(HOME)/Documents/Nordic/gcc-arm-none-eabi-9-2020-q2-update/",
-    "GNU_GCC_ARM_LIBS": "$(HOME)/Documents/Nordic/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/",
-    "nRF_SDK": "$(HOME)/Documents/Nordic/nRF5_SDK_17.0.0_9d13099/"
-  }
+  "terminal.integrated.shellArgs.linux": ["--rcfile", ".vscode/sdk_routes_config.sh"]
 }
