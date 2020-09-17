@@ -8,7 +8,7 @@
       "type": "shell",
       "command": "make",
       "options": {
-        "cwd": "${workspaceFolder}/pca10056/s140/armgcc"
+        "cwd": "${workspaceFolder}/boards/pca10056/s140/armgcc"
       },
       "problemMatcher": [],
       "group": {
@@ -20,7 +20,7 @@
       "label": "clean",
       "type": "shell",
       "command": "make clean",
-      "options": { "cwd": "${workspaceFolder}/pca10056/s140/armgcc" },
+      "options": { "cwd": "${workspaceFolder}/boards/pca10056/s140/armgcc" },
       "problemMatcher": []
     },
     {
@@ -28,7 +28,7 @@
       "type": "shell",
       "command": "make flash",
       "options": {
-        "cwd": "${workspaceFolder}/pca10056/s140/armgcc"
+        "cwd": "${workspaceFolder}/boards/pca10056/s140/armgcc"
       },
       "group": "build",
       "problemMatcher": []
@@ -38,7 +38,7 @@
       "type": "shell",
       "command": "make flash_softdevice",
       "options": {
-        "cwd": "${workspaceFolder}/pca10056/s140/armgcc"
+        "cwd": "${workspaceFolder}/boards/pca10056/s140/armgcc"
       },
       "problemMatcher": []
     },
@@ -47,7 +47,7 @@
       "type": "shell",
       "command": "make sdk_config",
       "options": {
-        "cwd": "${workspaceFolder}/pca10056/s140/armgcc"
+        "cwd": "${workspaceFolder}/boards/pca10056/s140/armgcc"
       },
       "problemMatcher": []
     },
@@ -56,7 +56,7 @@
       "type": "shell",
       "command": "make erase",
       "options": {
-        "cwd": "${workspaceFolder}/pca10056/s140/armgcc"
+        "cwd": "${workspaceFolder}/boards/pca10056/s140/armgcc"
       },
       "problemMatcher": []
     }

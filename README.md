@@ -13,7 +13,7 @@ This template uses submodules! You'll need a recursive clone.
 
 ### Env vars
 
-You need to set this env vars:
+You need to set some env vars:
 
 - `GNU_GCC_ARM`
 - `GNU_GCC_ARM_LIBS`
