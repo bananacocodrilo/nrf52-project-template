@@ -20,7 +20,7 @@ You need to set some env vars:
 - `GNU_GCC_ARM_LIBS`
 - `nRF_SDK`
 
-I'm using the .vscode/settings.json file to run `.vscode/sdk_routes_config.sh`. This file is ignored in the repo as it depends on where the nrf sdk files are on your computer so you need to create it yourself. You can use `.vscode/sdk_routes_config.sh.example` as a guide.
+I'm using the .bashrc to make sure that the vars are always set when I launch Visual Studio. There is an example of my values in `.vscode/sdk_routes_config.sh.example`.
 
 ## Folders
 
