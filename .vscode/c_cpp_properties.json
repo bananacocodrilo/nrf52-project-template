@@ -3,8 +3,8 @@
     {
       "name": "Linux",
       "includePath": [
-        "${env:GNU_GCC}/arm-none-eabi/include",
-        "${env:GNU_GCC_ARM_LIBS}/include",
+        "${env:GNU_GCC_ARM}/arm-none-eabi/include/**",
+        "${env:GNU_GCC_ARM_LIBS}/include/**",
         "${env:nRF_SDK}/components/**",
         "${env:nRF_SDK}/modules/**",
         "${workspaceFolder}/**"
@@ -24,12 +24,11 @@
       "intelliSenseMode": "clang-x64",
       "browse": {
         "path": [
-          "${env:GNU_GCC_ARM}/arm-none-eabi/include",
-          "${env:GNU_GCC_ARM_LIBS}/include",
-          "${env:nRF_SDK}/components/",
-          "${env:nRF_SDK}/components/libraries/util",
-          "${env:nRF_SDK}/components/libraries/",
-          "${workspaceRoot}"
+          "${env:GNU_GCC_ARM}/arm-none-eabi/include ",
+          "${env:GNU_GCC_ARM_LIBS}/include ",
+          "${env:nRF_SDK}/components ",
+          "${env:nRF_SDK}/modules ",
+          "${workspaceFolder}"
         ],
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""
