@@ -7,6 +7,8 @@
         "${env:GNU_GCC_ARM_LIBS}/include/**",
         "${env:nRF_SDK}/components/**",
         "${env:nRF_SDK}/modules/**",
+        "${workspaceFolder}/project/**",
+        "${workspaceFolder}/boards/**",
         "${workspaceFolder}/**"
       ],
       "defines": [
@@ -24,11 +26,14 @@
       "intelliSenseMode": "clang-x64",
       "browse": {
         "path": [
-          "${env:GNU_GCC_ARM}/arm-none-eabi/include ",
-          "${env:GNU_GCC_ARM_LIBS}/include ",
-          "${env:nRF_SDK}/components ",
-          "${env:nRF_SDK}/modules ",
-          "${workspaceFolder}"
+          "${env:GNU_GCC_ARM}/arm-none-eabi/include",
+          "${env:GNU_GCC_ARM_LIBS}/include",
+          "${env:nRF_SDK}/components/",
+          "${env:nRF_SDK}/components/libraries/util",
+          "${env:nRF_SDK}/components/libraries/",
+          "${workspaceFolder}/project/",
+          "${workspaceFolder}/boards/",
+          "${workspaceFolder}/"
         ],
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""
